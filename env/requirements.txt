@@ -1,0 +1,17 @@
+jupyterlab
+opencv-python
+matplotlib
+natsort
+pandas
+dvc[gdrive]
+mlflow
+python-box
+seaborn
+awscli
+mlflow
+scikit-learn
+tifffile
+xgboost
+lightgbm
+python-dotenv
+torch==1.10.1

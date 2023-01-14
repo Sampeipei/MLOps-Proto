@@ -1,0 +1,16 @@
+version: "3"
+
+services:
+  mlops-proto:
+    container_name: mlops-proto
+    restart: always
+    build:
+      context: ./
+      dockerfile: env/Dockerfile
+    working_dir: '/workspace'
+    tty: true
+    volumes:
+      - ./notebook:/workspace/notebook
+      - ./data:/workspace/data
+    ports:
+      - "18188:8888"
