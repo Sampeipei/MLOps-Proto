@@ -1,2 +1,4 @@
-data/*
+data/fold/*
+data/mnist/*
 .dvc/config
+.ipynb_checkpoints
